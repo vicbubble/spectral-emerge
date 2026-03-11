@@ -1,0 +1,974 @@
+{
+  "per_record": [
+    {
+      "record_id": "100",
+      "n_beats": 2271,
+      "n_normal": 2237,
+      "n_anomalous": 34,
+      "anomaly_prevalence": 0.014971378247468076,
+      "anomaly_metrics": {
+        "unsupervised_energy": {
+          "auroc": 0.5000262957216861,
+          "aupr": 0.07479086975125225,
+          "fpr_at_95tpr": 0.9333929369691552,
+          "threshold_opt": 0.3077354431152344,
+          "precision_opt": 1.0,
+          "recall_opt": 0.058823529411764705,
+          "f1_opt": 0.11111111111100616,
+          "auroc_per_class": {
+            "1": 0.484875577410222,
+            "2": 1.0
+          },
+          "n_normal": 2237,
+          "n_anomalous": 34,
+          "anomaly_prevalence": 0.014971378247468076
+        },
+        "unsupervised_centroid_distance": {
+          "auroc": 0.6063793420810434,
+          "aupr": 0.06064774178808824,
+          "fpr_at_95tpr": 0.9311578006258382,
+          "threshold_opt": 0.2593261506768306,
+          "precision_opt": 0.08928571428571429,
+          "recall_opt": 0.14705882352941177,
+          "f1_opt": 0.111111111110641,
+          "auroc_per_class": {
+            "1": 0.5944514433562266,
+            "2": 1.0
+          },
+          "n_normal": 2237,
+          "n_anomalous": 34,
+          "anomaly_prevalence": 0.014971378247468076
+        },
+        "unsupervised_both": {
+          "auroc": 0.5747850324752163,
+          "aupr": 0.06563830599069312,
+          "fpr_at_95tpr": 0.7898971837282074,
+          "threshold_opt": 0.2949140958093365,
+          "precision_opt": 0.5,
+          "recall_opt": 0.058823529411764705,
+          "f1_opt": 0.10526315789454847,
+          "auroc_per_class": {
+            "1": 0.5618997304290108,
+            "2": 1.0
+          },
+          "n_normal": 2237,
+          "n_anomalous": 34,
+          "anomaly_prevalence": 0.014971378247468076
+        },
+        "label_informed_normal_distance": {
+          "auroc": 0.4587157169528518,
+          "aupr": 0.05591556030546057,
+          "fpr_at_95tpr": 0.957532409476978,
+          "threshold_opt": 0.26832330226898193,
+          "precision_opt": 0.4,
+          "recall_opt": 0.058823529411764705,
+          "f1_opt": 0.10256410256387902,
+          "auroc_per_class": {
+            "1": 0.44231316292112,
+            "2": 1.0
+          },
+          "n_normal": 2237,
+          "n_anomalous": 34,
+          "anomaly_prevalence": 0.014971378247468076
+        }
+      },
+      "regime_metrics": {
+        "precision": NaN,
+        "recall": NaN,
+        "f1": NaN,
+        "mean_delay": NaN,
+        "n_detected": 0,
+        "n_true": 0
+      },
+      "iteration_hypothesis": {
+        "statistic": 38076.5,
+        "p_value": 0.4827673479308471,
+        "normal_mean_iters": 5.0281627179257935,
+        "anomalous_mean_iters": 5.029411764705882,
+        "hypothesis_supported": false,
+        "warning": null
+      },
+      "baselines": {
+        "random_auroc": 0.5242183596728812,
+        "constant_auroc": 0.5,
+        "raw_energy_auroc": 0.5000262957216861
+      }
+    },
+    {
+      "record_id": "101",
+      "n_beats": 1864,
+      "n_normal": 1859,
+      "n_anomalous": 5,
+      "anomaly_prevalence": 0.002682403433476395,
+      "anomaly_metrics": {
+        "unsupervised_energy": {
+          "auroc": 0.9220010758472297,
+          "aupr": 0.4777922077922078,
+          "fpr_at_95tpr": 0.3738569123184508,
+          "threshold_opt": 0.9992327690124512,
+          "precision_opt": 1.0,
+          "recall_opt": 0.4,
+          "f1_opt": 0.5714285714281633,
+          "auroc_per_class": {
+            "1": 0.8700017930787161,
+            "4": 1.0
+          },
+          "n_normal": 1859,
+          "n_anomalous": 5,
+          "anomaly_prevalence": 0.002682403433476395
+        },
+        "unsupervised_centroid_distance": {
+          "auroc": 0.8513179128563744,
+          "aupr": 0.46270075478122696,
+          "fpr_at_95tpr": 0.7046799354491662,
+          "threshold_opt": 0.8460050678097374,
+          "precision_opt": 1.0,
+          "recall_opt": 0.4,
+          "f1_opt": 0.5714285714281633,
+          "auroc_per_class": {
+            "1": 0.7521965214272907,
+            "4": 1.0
+          },
+          "n_normal": 1859,
+          "n_anomalous": 5,
+          "anomaly_prevalence": 0.002682403433476395
+        },
+        "unsupervised_both": {
+          "auroc": 0.9729962345346961,
+          "aupr": 0.4800200168563001,
+          "fpr_at_95tpr": 0.11888111888111888,
+          "threshold_opt": 0.9226189184110942,
+          "precision_opt": 1.0,
+          "recall_opt": 0.4,
+          "f1_opt": 0.5714285714281633,
+          "auroc_per_class": {
+            "1": 0.9549937242244935,
+            "4": 1.0
+          },
+          "n_normal": 1859,
+          "n_anomalous": 5,
+          "anomaly_prevalence": 0.002682403433476395
+        },
+        "label_informed_normal_distance": {
+          "auroc": 0.8682087143625605,
+          "aupr": 0.43904006423785696,
+          "fpr_at_95tpr": 0.49166218396987627,
+          "threshold_opt": 0.7033520340919495,
+          "precision_opt": 1.0,
+          "recall_opt": 0.4,
+          "f1_opt": 0.5714285714281633,
+          "auroc_per_class": {
+            "1": 0.7803478572709341,
+            "4": 1.0
+          },
+          "n_normal": 1859,
+          "n_anomalous": 5,
+          "anomaly_prevalence": 0.002682403433476395
+        }
+      },
+      "regime_metrics": {
+        "precision": NaN,
+        "recall": NaN,
+        "f1": NaN,
+        "mean_delay": NaN,
+        "n_detected": 2,
+        "n_true": 0
+      },
+      "iteration_hypothesis": {
+        "statistic": NaN,
+        "p_value": NaN,
+        "normal_mean_iters": 5.0677783754706835,
+        "anomalous_mean_iters": 5.4,
+        "hypothesis_supported": false,
+        "warning": "Only 5 anomalous / 1859 normal beats \u2014 test skipped."
+      },
+      "baselines": {
+        "random_auroc": 0.6183969876277569,
+        "constant_auroc": 0.5,
+        "raw_energy_auroc": 0.9220010758472297
+      }
+    },
+    {
+      "record_id": "102",
+      "n_beats": 2187,
+      "n_normal": 99,
+      "n_anomalous": 2088,
+      "anomaly_prevalence": 0.9547325102880658,
+      "anomaly_metrics": {
+        "unsupervised_energy": {
+          "auroc": 0.9999903247029683,
+          "aupr": 0.9999995416964564,
+          "fpr_at_95tpr": 0.0,
+          "threshold_opt": 0.09175482392311096,
+          "precision_opt": 1.0,
+          "recall_opt": 0.9995210727969349,
+          "f1_opt": 0.9997604790414162,
+          "auroc_per_class": {
+            "2": 1.0,
+            "4": 0.9999903061323406
+          },
+          "n_normal": 99,
+          "n_anomalous": 2088,
+          "anomaly_prevalence": 0.9547325102880658
+        },
+        "unsupervised_centroid_distance": {
+          "auroc": 0.9976634157668641,
+          "aupr": 0.999893164005024,
+          "fpr_at_95tpr": 0.0,
+          "threshold_opt": 0.19860762257225273,
+          "precision_opt": 0.9995192307692308,
+          "recall_opt": 0.9956896551724138,
+          "f1_opt": 0.9976007677538186,
+          "auroc_per_class": {
+            "2": 1.0,
+            "4": 0.9976589309602745
+          },
+          "n_normal": 99,
+          "n_anomalous": 2088,
+          "anomaly_prevalence": 0.9547325102880658
+        },
+        "unsupervised_both": {
+          "auroc": 0.9992308138859863,
+          "aupr": 0.9999641897239658,
+          "fpr_at_95tpr": 0.0,
+          "threshold_opt": 0.12207985005614135,
+          "precision_opt": 1.0,
+          "recall_opt": 0.9976053639846744,
+          "f1_opt": 0.9988012467029284,
+          "auroc_per_class": {
+            "2": 1.0,
+            "4": 0.9992293375210842
+          },
+          "n_normal": 99,
+          "n_anomalous": 2088,
+          "anomaly_prevalence": 0.9547325102880658
+        },
+        "label_informed_normal_distance": {
+          "auroc": 0.9986938349007314,
+          "aupr": 0.9999397397406953,
+          "fpr_at_95tpr": 0.0,
+          "threshold_opt": 0.11942149698734283,
+          "precision_opt": 1.0,
+          "recall_opt": 0.9976053639846744,
+          "f1_opt": 0.9988012467029284,
+          "auroc_per_class": {
+            "2": 1.0,
+            "4": 0.9986913278659919
+          },
+          "n_normal": 99,
+          "n_anomalous": 2088,
+          "anomaly_prevalence": 0.9547325102880658
+        }
+      },
+      "regime_metrics": {
+        "precision": 0.10526315789473684,
+        "recall": 0.5714285714285714,
+        "f1": 0.17777777777751508,
+        "mean_delay": -1.75,
+        "n_detected": 38,
+        "n_true": 7
+      },
+      "iteration_hypothesis": {
+        "statistic": 122782.5,
+        "p_value": 6.479845829195446e-05,
+        "normal_mean_iters": 5.171717171717172,
+        "anomalous_mean_iters": 5.359674329501916,
+        "hypothesis_supported": true,
+        "warning": null
+      },
+      "baselines": {
+        "random_auroc": 0.5054858934169278,
+        "constant_auroc": 0.5,
+        "raw_energy_auroc": 0.9999903247029683
+      }
+    },
+    {
+      "record_id": "103",
+      "n_beats": 2084,
+      "n_normal": 2082,
+      "n_anomalous": 2,
+      "anomaly_prevalence": 0.0009596928982725527,
+      "anomaly_metrics": {
+        "unsupervised_energy": {
+          "auroc": 0.7699327569644573,
+          "aupr": 0.00306671074610245,
+          "fpr_at_95tpr": 0.24495677233429394,
+          "threshold_opt": 0.32039329409599304,
+          "precision_opt": 0.00390625,
+          "recall_opt": 1.0,
+          "f1_opt": 0.007782101167307423,
+          "auroc_per_class": {
+            "1": 0.7699327569644573
+          },
+          "n_normal": 2082,
+          "n_anomalous": 2,
+          "anomaly_prevalence": 0.0009596928982725527
+        },
+        "unsupervised_centroid_distance": {
+          "auroc": 0.6268011527377522,
+          "aupr": 0.0038989990900818927,
+          "fpr_at_95tpr": 0.6714697406340058,
+          "threshold_opt": 0.4012217750387872,
+          "precision_opt": 0.006369426751592357,
+          "recall_opt": 0.5,
+          "f1_opt": 0.012578616352176419,
+          "auroc_per_class": {
+            "1": 0.6268011527377522
+          },
+          "n_normal": 2082,
+          "n_anomalous": 2,
+          "anomaly_prevalence": 0.0009596928982725527
+        },
+        "unsupervised_both": {
+          "auroc": 0.7036503362151778,
+          "aupr": 0.0028413140186495226,
+          "fpr_at_95tpr": 0.4596541786743516,
+          "threshold_opt": 0.3647537792840344,
+          "precision_opt": 0.0035971223021582736,
+          "recall_opt": 0.5,
+          "f1_opt": 0.00714285714284296,
+          "auroc_per_class": {
+            "1": 0.7036503362151778
+          },
+          "n_normal": 2082,
+          "n_anomalous": 2,
+          "anomaly_prevalence": 0.0009596928982725527
+        },
+        "label_informed_normal_distance": {
+          "auroc": 0.5194524495677233,
+          "aupr": 0.0014542233111482917,
+          "fpr_at_95tpr": 0.5648414985590778,
+          "threshold_opt": 0.44278484582901,
+          "precision_opt": 0.001697792869269949,
+          "recall_opt": 1.0,
+          "f1_opt": 0.003389830508471192,
+          "auroc_per_class": {
+            "1": 0.5194524495677233
+          },
+          "n_normal": 2082,
+          "n_anomalous": 2,
+          "anomaly_prevalence": 0.0009596928982725527
+        }
+      },
+      "regime_metrics": {
+        "precision": NaN,
+        "recall": NaN,
+        "f1": NaN,
+        "mean_delay": NaN,
+        "n_detected": 0,
+        "n_true": 0
+      },
+      "iteration_hypothesis": {
+        "statistic": NaN,
+        "p_value": NaN,
+        "normal_mean_iters": 5.0,
+        "anomalous_mean_iters": 5.0,
+        "hypothesis_supported": false,
+        "warning": "Only 2 anomalous / 2082 normal beats \u2014 test skipped."
+      },
+      "baselines": {
+        "random_auroc": 0.755283381364073,
+        "constant_auroc": 0.5,
+        "raw_energy_auroc": 0.7699327569644573
+      }
+    },
+    {
+      "record_id": "104",
+      "n_beats": 2228,
+      "n_normal": 163,
+      "n_anomalous": 2065,
+      "anomaly_prevalence": 0.9268402154398564,
+      "anomaly_metrics": {
+        "unsupervised_energy": {
+          "auroc": 0.8588169758909074,
+          "aupr": 0.9877344760872521,
+          "fpr_at_95tpr": 0.803680981595092,
+          "threshold_opt": 0.002322553191334009,
+          "precision_opt": 0.9272563987427032,
+          "recall_opt": 1.0,
+          "f1_opt": 0.9622553588065836,
+          "auroc_per_class": {
+            "2": 1.0,
+            "4": 0.8586801043212429
+          },
+          "n_normal": 163,
+          "n_anomalous": 2065,
+          "anomaly_prevalence": 0.9268402154398564
+        },
+        "unsupervised_centroid_distance": {
+          "auroc": 0.9978104249914586,
+          "aupr": 0.999831661677247,
+          "fpr_at_95tpr": 0.0,
+          "threshold_opt": 0.10442374231937343,
+          "precision_opt": 0.9961183891314895,
+          "recall_opt": 0.9941888619854722,
+          "f1_opt": 0.9951526902564074,
+          "auroc_per_class": {
+            "2": 1.0,
+            "4": 0.9978083022818042
+          },
+          "n_normal": 163,
+          "n_anomalous": 2065,
+          "anomaly_prevalence": 0.9268402154398564
+        },
+        "unsupervised_both": {
+          "auroc": 0.9961496754259569,
+          "aupr": 0.9997017606811007,
+          "fpr_at_95tpr": 0.006134969325153374,
+          "threshold_opt": 0.08302312990159957,
+          "precision_opt": 0.9932137663596704,
+          "recall_opt": 0.9922518159806295,
+          "f1_opt": 0.9927325581390348,
+          "auroc_per_class": {
+            "2": 1.0,
+            "4": 0.9961459426827927
+          },
+          "n_normal": 163,
+          "n_anomalous": 2065,
+          "anomaly_prevalence": 0.9268402154398564
+        },
+        "label_informed_normal_distance": {
+          "auroc": 0.9910010546799567,
+          "aupr": 0.9992964592270874,
+          "fpr_at_95tpr": 0.024539877300613498,
+          "threshold_opt": 0.07443883270025253,
+          "precision_opt": 0.9859971028488653,
+          "recall_opt": 0.988861985472155,
+          "f1_opt": 0.9874274661503705,
+          "auroc_per_class": {
+            "2": 1.0,
+            "4": 0.9909923305448911
+          },
+          "n_normal": 163,
+          "n_anomalous": 2065,
+          "anomaly_prevalence": 0.9268402154398564
+        }
+      },
+      "regime_metrics": {
+        "precision": 0.29333333333333333,
+        "recall": 0.3055555555555556,
+        "f1": 0.2993197278906567,
+        "mean_delay": 0.5,
+        "n_detected": 75,
+        "n_true": 72
+      },
+      "iteration_hypothesis": {
+        "statistic": 169109.5,
+        "p_value": 0.4262998543565959,
+        "normal_mean_iters": 5.110429447852761,
+        "anomalous_mean_iters": 5.115254237288136,
+        "hypothesis_supported": false,
+        "warning": null
+      },
+      "baselines": {
+        "random_auroc": 0.5195145501270073,
+        "constant_auroc": 0.5,
+        "raw_energy_auroc": 0.8588169758909074
+      }
+    },
+    {
+      "record_id": "105",
+      "n_beats": 2572,
+      "n_normal": 2526,
+      "n_anomalous": 46,
+      "anomaly_prevalence": 0.017884914463452566,
+      "anomaly_metrics": {
+        "unsupervised_energy": {
+          "auroc": 0.8551327068057419,
+          "aupr": 0.07079412550492505,
+          "fpr_at_95tpr": 0.19279493269992082,
+          "threshold_opt": 0.0754401683807373,
+          "precision_opt": 0.08333333333333333,
+          "recall_opt": 1.0,
+          "f1_opt": 0.15384615384601183,
+          "auroc_per_class": {
+            "2": 0.8433945503350521,
+            "4": 0.9513855898653999
+          },
+          "n_normal": 2526,
+          "n_anomalous": 46,
+          "anomaly_prevalence": 0.017884914463452566
+        },
+        "unsupervised_centroid_distance": {
+          "auroc": 0.23997383730937383,
+          "aupr": 0.019893275778740567,
+          "fpr_at_95tpr": 1.0,
+          "threshold_opt": 0.2521542400873866,
+          "precision_opt": 0.03571428571428571,
+          "recall_opt": 0.1956521739130435,
+          "f1_opt": 0.060402684563497316,
+          "auroc_per_class": {
+            "2": 0.15262731012108216,
+            "4": 0.956215360253365
+          },
+          "n_normal": 2526,
+          "n_anomalous": 46,
+          "anomaly_prevalence": 0.017884914463452566
+        },
+        "unsupervised_both": {
+          "auroc": 0.3180143894798444,
+          "aupr": 0.023511770955314214,
+          "fpr_at_95tpr": 0.9996041171813144,
+          "threshold_opt": 0.21515204772427052,
+          "precision_opt": 0.03816793893129771,
+          "recall_opt": 0.21739130434782608,
+          "f1_opt": 0.06493506493481085,
+          "auroc_per_class": {
+            "2": 0.2403491493347238,
+            "4": 0.9548693586698337
+          },
+          "n_normal": 2526,
+          "n_anomalous": 46,
+          "anomaly_prevalence": 0.017884914463452566
+        },
+        "label_informed_normal_distance": {
+          "auroc": 0.7150848566215705,
+          "aupr": 0.035343775611093614,
+          "fpr_at_95tpr": 0.6349960411718132,
+          "threshold_opt": 0.11439778655767441,
+          "precision_opt": 0.03896103896103896,
+          "recall_opt": 0.5217391304347826,
+          "f1_opt": 0.07250755286996131,
+          "auroc_per_class": {
+            "2": 0.6844427707935037,
+            "4": 0.9663499604117182
+          },
+          "n_normal": 2526,
+          "n_anomalous": 46,
+          "anomaly_prevalence": 0.017884914463452566
+        }
+      },
+      "regime_metrics": {
+        "precision": NaN,
+        "recall": NaN,
+        "f1": NaN,
+        "mean_delay": NaN,
+        "n_detected": 62,
+        "n_true": 0
+      },
+      "iteration_hypothesis": {
+        "statistic": 60282.0,
+        "p_value": 0.2723155111286689,
+        "normal_mean_iters": 5.223277909738718,
+        "anomalous_mean_iters": 5.260869565217392,
+        "hypothesis_supported": false,
+        "warning": null
+      },
+      "baselines": {
+        "random_auroc": 0.4679162793899962,
+        "constant_auroc": 0.5,
+        "raw_energy_auroc": 0.8551327068057419
+      }
+    },
+    {
+      "record_id": "106",
+      "n_beats": 2027,
+      "n_normal": 1507,
+      "n_anomalous": 520,
+      "anomaly_prevalence": 0.2565367538233843,
+      "anomaly_metrics": {
+        "unsupervised_energy": {
+          "auroc": 0.7734725128885712,
+          "aupr": 0.7344412462127514,
+          "fpr_at_95tpr": 0.9316522893165229,
+          "threshold_opt": 0.2227400541305542,
+          "precision_opt": 0.8440111420612814,
+          "recall_opt": 0.5826923076923077,
+          "f1_opt": 0.6894197952213598,
+          "auroc_per_class": {
+            "2": 0.7734725128885712
+          },
+          "n_normal": 1507,
+          "n_anomalous": 520,
+          "anomaly_prevalence": 0.2565367538233843
+        },
+        "unsupervised_centroid_distance": {
+          "auroc": 0.9010438466642846,
+          "aupr": 0.8412061834491076,
+          "fpr_at_95tpr": 0.504313205043132,
+          "threshold_opt": 0.27174749023219374,
+          "precision_opt": 0.9530386740331491,
+          "recall_opt": 0.6634615384615384,
+          "f1_opt": 0.7823129251695841,
+          "auroc_per_class": {
+            "2": 0.9010438466642846
+          },
+          "n_normal": 1507,
+          "n_anomalous": 520,
+          "anomaly_prevalence": 0.2565367538233843
+        },
+        "unsupervised_both": {
+          "auroc": 0.8579245571946302,
+          "aupr": 0.8213794232562868,
+          "fpr_at_95tpr": 0.8865295288652952,
+          "threshold_opt": 0.22641603077921793,
+          "precision_opt": 0.9453551912568307,
+          "recall_opt": 0.6653846153846154,
+          "f1_opt": 0.7810383747173479,
+          "auroc_per_class": {
+            "2": 0.8579245571946302
+          },
+          "n_normal": 1507,
+          "n_anomalous": 520,
+          "anomaly_prevalence": 0.2565367538233843
+        },
+        "label_informed_normal_distance": {
+          "auroc": 0.9210555867490176,
+          "aupr": 0.8845660337602947,
+          "fpr_at_95tpr": 0.5129396151293961,
+          "threshold_opt": 0.1818201243877411,
+          "precision_opt": 0.9251207729468599,
+          "recall_opt": 0.7365384615384616,
+          "f1_opt": 0.8201284796568941,
+          "auroc_per_class": {
+            "2": 0.9210555867490176
+          },
+          "n_normal": 1507,
+          "n_anomalous": 520,
+          "anomaly_prevalence": 0.2565367538233843
+        }
+      },
+      "regime_metrics": {
+        "precision": NaN,
+        "recall": NaN,
+        "f1": NaN,
+        "mean_delay": NaN,
+        "n_detected": 212,
+        "n_true": 0
+      },
+      "iteration_hypothesis": {
+        "statistic": 560764.0,
+        "p_value": 9.229985050397953e-65,
+        "normal_mean_iters": 5.3842070338420704,
+        "anomalous_mean_iters": 5.815384615384615,
+        "hypothesis_supported": true,
+        "warning": null
+      },
+      "baselines": {
+        "random_auroc": 0.5222346996069623,
+        "constant_auroc": 0.5,
+        "raw_energy_auroc": 0.7734725128885712
+      }
+    },
+    {
+      "record_id": "107",
+      "n_beats": 2137,
+      "n_normal": 0,
+      "n_anomalous": 2137,
+      "anomaly_prevalence": 1.0,
+      "anomaly_metrics": {
+        "unsupervised_energy": {
+          "auroc": NaN,
+          "aupr": NaN,
+          "fpr_at_95tpr": NaN,
+          "threshold_opt": NaN,
+          "precision_opt": NaN,
+          "recall_opt": NaN,
+          "f1_opt": NaN,
+          "auroc_per_class": {},
+          "n_normal": 0,
+          "n_anomalous": 2137,
+          "anomaly_prevalence": 1.0
+        },
+        "unsupervised_centroid_distance": {
+          "auroc": NaN,
+          "aupr": NaN,
+          "fpr_at_95tpr": NaN,
+          "threshold_opt": NaN,
+          "precision_opt": NaN,
+          "recall_opt": NaN,
+          "f1_opt": NaN,
+          "auroc_per_class": {},
+          "n_normal": 0,
+          "n_anomalous": 2137,
+          "anomaly_prevalence": 1.0
+        },
+        "unsupervised_both": {
+          "auroc": NaN,
+          "aupr": NaN,
+          "fpr_at_95tpr": NaN,
+          "threshold_opt": NaN,
+          "precision_opt": NaN,
+          "recall_opt": NaN,
+          "f1_opt": NaN,
+          "auroc_per_class": {},
+          "n_normal": 0,
+          "n_anomalous": 2137,
+          "anomaly_prevalence": 1.0
+        },
+        "label_informed_normal_distance": {
+          "auroc": NaN,
+          "aupr": NaN,
+          "fpr_at_95tpr": NaN,
+          "threshold_opt": NaN,
+          "precision_opt": NaN,
+          "recall_opt": NaN,
+          "f1_opt": NaN,
+          "auroc_per_class": {},
+          "n_normal": 0,
+          "n_anomalous": 2137,
+          "anomaly_prevalence": 1.0
+        }
+      },
+      "regime_metrics": {
+        "precision": NaN,
+        "recall": NaN,
+        "f1": NaN,
+        "mean_delay": NaN,
+        "n_detected": 6,
+        "n_true": 0
+      },
+      "iteration_hypothesis": {
+        "statistic": NaN,
+        "p_value": NaN,
+        "normal_mean_iters": NaN,
+        "anomalous_mean_iters": 5.580720636406177,
+        "hypothesis_supported": false,
+        "warning": "Only 2137 anomalous / 0 normal beats \u2014 test skipped."
+      },
+      "baselines": {
+        "random_auroc": NaN,
+        "constant_auroc": 0.5,
+        "raw_energy_auroc": NaN
+      }
+    },
+    {
+      "record_id": "108",
+      "n_beats": 1762,
+      "n_normal": 1739,
+      "n_anomalous": 23,
+      "anomaly_prevalence": 0.013053348467650397,
+      "anomaly_metrics": {
+        "unsupervised_energy": {
+          "auroc": 0.5637922844213317,
+          "aupr": 0.043704899490525514,
+          "fpr_at_95tpr": 0.9994249568717654,
+          "threshold_opt": 0.9988499879837036,
+          "precision_opt": 0.09859154929577464,
+          "recall_opt": 0.30434782608695654,
+          "f1_opt": 0.14893617021239633,
+          "auroc_per_class": {
+            "1": 0.39606095457159285,
+            "2": 0.5546798362818388,
+            "3": 0.9767107533064979
+          },
+          "n_normal": 1739,
+          "n_anomalous": 23,
+          "anomaly_prevalence": 0.013053348467650397
+        },
+        "unsupervised_centroid_distance": {
+          "auroc": 0.3688526639497962,
+          "aupr": 0.009956852656443919,
+          "fpr_at_95tpr": 0.9948246118458884,
+          "threshold_opt": 0.056084695473033866,
+          "precision_opt": 0.013075611142694713,
+          "recall_opt": 1.0,
+          "f1_opt": 0.025813692480333668,
+          "auroc_per_class": {
+            "1": 0.4202127659574468,
+            "2": 0.3356898826235497,
+            "3": 0.5480161012075905
+          },
+          "n_normal": 1739,
+          "n_anomalous": 23,
+          "anomaly_prevalence": 0.013053348467650397
+        },
+        "unsupervised_both": {
+          "auroc": 0.39007925594419585,
+          "aupr": 0.010369533705691726,
+          "fpr_at_95tpr": 0.9976998274870615,
+          "threshold_opt": 0.15366754908732508,
+          "precision_opt": 0.014007782101167316,
+          "recall_opt": 0.782608695652174,
+          "f1_opt": 0.02752293577978197,
+          "auroc_per_class": {
+            "1": 0.4299884991374353,
+            "2": 0.3621080404559754,
+            "3": 0.5480161012075905
+          },
+          "n_normal": 1739,
+          "n_anomalous": 23,
+          "anomaly_prevalence": 0.013053348467650397
+        },
+        "label_informed_normal_distance": {
+          "auroc": 0.3012475935695177,
+          "aupr": 0.009076004785143324,
+          "fpr_at_95tpr": 0.9994249568717654,
+          "threshold_opt": 0.03679942339658737,
+          "precision_opt": 0.01306076093128904,
+          "recall_opt": 1.0,
+          "f1_opt": 0.025784753363203246,
+          "auroc_per_class": {
+            "1": 0.3496262219666475,
+            "2": 0.26008862429388085,
+            "3": 0.5543415756181714
+          },
+          "n_normal": 1739,
+          "n_anomalous": 23,
+          "anomaly_prevalence": 0.013053348467650397
+        }
+      },
+      "regime_metrics": {
+        "precision": 0.02857142857142857,
+        "recall": 0.14285714285714285,
+        "f1": 0.04761904761876983,
+        "mean_delay": -2.0,
+        "n_detected": 35,
+        "n_true": 7
+      },
+      "iteration_hypothesis": {
+        "statistic": 20734.5,
+        "p_value": 0.17455671724777755,
+        "normal_mean_iters": 5.963197239792985,
+        "anomalous_mean_iters": 6.0,
+        "hypothesis_supported": false,
+        "warning": null
+      },
+      "baselines": {
+        "random_auroc": 0.4827612070905318,
+        "constant_auroc": 0.5,
+        "raw_energy_auroc": 0.5637922844213317
+      }
+    },
+    {
+      "record_id": "109",
+      "n_beats": 2531,
+      "n_normal": 2491,
+      "n_anomalous": 40,
+      "anomaly_prevalence": 0.015804030027657054,
+      "anomaly_metrics": {
+        "unsupervised_energy": {
+          "auroc": 0.963809714973906,
+          "aupr": 0.5813212434077193,
+          "fpr_at_95tpr": 0.03693295865114412,
+          "threshold_opt": 0.1704779714345932,
+          "precision_opt": 0.7872340425531915,
+          "recall_opt": 0.925,
+          "f1_opt": 0.8505747126431813,
+          "auroc_per_class": {
+            "2": 0.9956052314648525,
+            "3": 0.3596949016459253
+          },
+          "n_normal": 2491,
+          "n_anomalous": 40,
+          "anomaly_prevalence": 0.015804030027657054
+        },
+        "unsupervised_centroid_distance": {
+          "auroc": 0.9259735046166198,
+          "aupr": 0.8697077531601617,
+          "fpr_at_95tpr": 0.8474508229626656,
+          "threshold_opt": 0.47286430347571473,
+          "precision_opt": 0.9210526315789473,
+          "recall_opt": 0.875,
+          "f1_opt": 0.8974358974353978,
+          "auroc_per_class": {
+            "2": 0.9730714783747808,
+            "3": 0.0311120032115616
+          },
+          "n_normal": 2491,
+          "n_anomalous": 40,
+          "anomaly_prevalence": 0.015804030027657054
+        },
+        "unsupervised_both": {
+          "auroc": 0.9345845042151747,
+          "aupr": 0.7836184885815295,
+          "fpr_at_95tpr": 0.6326776395022079,
+          "threshold_opt": 0.4585953490754674,
+          "precision_opt": 0.8,
+          "recall_opt": 0.9,
+          "f1_opt": 0.8470588235289135,
+          "auroc_per_class": {
+            "2": 0.9812377189461007,
+            "3": 0.04817342432757926
+          },
+          "n_normal": 2491,
+          "n_anomalous": 40,
+          "anomaly_prevalence": 0.015804030027657054
+        },
+        "label_informed_normal_distance": {
+          "auroc": 0.9047169811320754,
+          "aupr": 0.6812915619346348,
+          "fpr_at_95tpr": 1.0,
+          "threshold_opt": 0.3429255783557892,
+          "precision_opt": 0.7906976744186046,
+          "recall_opt": 0.85,
+          "f1_opt": 0.8192771084332355,
+          "auroc_per_class": {
+            "2": 0.952333664349553,
+            "3": 0.0
+          },
+          "n_normal": 2491,
+          "n_anomalous": 40,
+          "anomaly_prevalence": 0.015804030027657054
+        }
+      },
+      "regime_metrics": {
+        "precision": NaN,
+        "recall": NaN,
+        "f1": NaN,
+        "mean_delay": NaN,
+        "n_detected": 8,
+        "n_true": 0
+      },
+      "iteration_hypothesis": {
+        "statistic": 54051.5,
+        "p_value": 0.10657859879998899,
+        "normal_mean_iters": 5.240064231232437,
+        "anomalous_mean_iters": 5.325,
+        "hypothesis_supported": false,
+        "warning": null
+      },
+      "baselines": {
+        "random_auroc": 0.5624247290244881,
+        "constant_auroc": 0.5,
+        "raw_energy_auroc": 0.963809714973906
+      }
+    }
+  ],
+  "aggregate": {
+    "unsupervised_energy": {
+      "auroc_mean": 0.8007749609129777,
+      "auroc_std": 0.16179332391425044,
+      "beats_random_pct": 0.8888888888888888,
+      "beats_constant_pct": 1.0,
+      "beats_raw_energy_pct": 0.0
+    },
+    "unsupervised_centroid_distance": {
+      "auroc_mean": 0.7239795667748408,
+      "auroc_std": 0.26286977614599655,
+      "beats_random_pct": 0.6666666666666666,
+      "beats_constant_pct": 0.7777777777777778,
+      "beats_raw_energy_pct": 0.3333333333333333
+    },
+    "unsupervised_both": {
+      "auroc_mean": 0.7497127554856532,
+      "auroc_std": 0.2510321967956347,
+      "beats_random_pct": 0.6666666666666666,
+      "beats_constant_pct": 0.7777777777777778,
+      "beats_raw_energy_pct": 0.4444444444444444
+    },
+    "label_informed_normal_distance": {
+      "auroc_mean": 0.7420196431706673,
+      "auroc_std": 0.24201104457193565,
+      "beats_random_pct": 0.6666666666666666,
+      "beats_constant_pct": 0.7777777777777778,
+      "beats_raw_energy_pct": 0.2222222222222222
+    },
+    "regime": {
+      "f1_mean": 0.17490551776231386,
+      "f1_std": 0.10277644191976047
+    },
+    "iter_hypothesis_support_rate": 0.2
+  },
+  "success_criteria": {
+    "min_auroc_0.60_unsupervised_energy": true,
+    "strong_auroc_0.75_unsupervised_energy": true,
+    "min_auroc_0.60_unsupervised_centroid_distance": true,
+    "strong_auroc_0.75_unsupervised_centroid_distance": false,
+    "min_auroc_0.60_unsupervised_both": true,
+    "strong_auroc_0.75_unsupervised_both": false,
+    "beats_random_all_records": false,
+    "regime_f1_min": false,
+    "iter_hyp_majority": false
+  }
+}

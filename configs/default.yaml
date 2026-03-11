@@ -1,0 +1,32 @@
+model:
+  x_dim: 8
+  latent_dim: 32
+  hidden_dim: 64
+  deq_max_iter: 50
+  deq_tol: 1.0e-4
+
+training:
+  batch_size: 256
+  lr: 3.0e-4
+  epochs: 200
+  lambda_spectral: 0.01
+  beta_sparse: 0.001
+  tau_spectral: 1.0
+  seed: 42
+
+data:
+  type: synthetic_gmm
+  n_clusters: 4
+  n_samples: 10000
+  dim: 8
+  cluster_std: 0.3
+
+eval:
+  n_gmm_components: 10
+  umap_neighbors: 15
+  umap_min_dist: 0.1
+
+logging:
+  project: spectral-emerge
+  entity: null  # set your wandb entity
+  log_every: 10

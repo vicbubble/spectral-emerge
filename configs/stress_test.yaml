@@ -1,0 +1,49 @@
+model:
+  x_dim: 8
+  latent_dim: 32
+  hidden_dim: 64
+  deq_max_iter: 50
+  deq_tol: 1.0e-4
+
+training:
+  batch_size: 256
+  lr: 3.0e-4
+  epochs: 300
+  lambda_spectral: 0.01
+  beta_sparse: 0.001
+  tau_spectral: 1.0
+  seed: 42
+
+stress_tests:
+  overlapping:
+    n_clusters: 6
+    std_range: [0.4, 1.2]
+    n_samples: 12000
+  hierarchical:
+    n_macro: 3
+    n_micro_per_macro: 3
+    macro_std: 3.0
+    micro_std: 0.4
+    n_samples: 15000
+  nonstationary:
+    n_clusters: 4
+    n_samples_phase1: 5000
+    n_samples_phase2: 5000
+    shift_dim: 0
+    shift_magnitude: 2.0
+
+data:
+  type: synthetic_overlapping # placeholder, overriden via cli
+  n_samples: 12000
+  dim: 8
+  n_clusters: 6
+
+eval:
+  n_gmm_components: 10
+  umap_neighbors: 15
+  umap_min_dist: 0.1
+
+logging:
+  project: spectral-emerge
+  entity: null
+  log_every: 10

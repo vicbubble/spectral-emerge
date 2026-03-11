@@ -1,0 +1,63 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Pytest / test artefacts ────────────────────────────────────────────────────
+.pytest_cache/
+pytest.log
+pytest_err.log
+.coverage
+htmlcov/
+
+# ── Error / tmp log dumps ─────────────────────────────────────────────────────
+error.log
+*.log
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Model checkpoints (large — track only if explicitly intended) ──────────────
+experiments/checkpoints/
+# To commit a checkpoint, run: git add -f experiments/checkpoints/best_model.pt
+
+# ── Cached centroid / numpy artefacts (reproducible from code + data) ─────────
+experiments/results/centroids_*.npy
+experiments/results/normal_centroid_*.npy
+
+# ── Hidden flags ──────────────────────────────────────────────────────────────
+experiments/results/.collapse_flag
+
+# ── Large downloaded data ─────────────────────────────────────────────────────
+physionet_data/
+data/cache/ripe/
+
+# ── Cache dir ─────────────────────────────────────────────────────────────────
+data/cache/
+
+# ── Keep results (JSON, MD, PNG) ──────────────────────────────────────────────
+# Do not ignore experiments/results/ — tracked intentionally
+# Do not ignore experiments/results/figures/ — key visualizations kept

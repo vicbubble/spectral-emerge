@@ -1,0 +1,143 @@
+{
+  "adapter_used": false,
+  "training_performed": false,
+  "ablation_results": [
+    {
+      "map_mode": "constant_pad",
+      "adapter_used": false,
+      "training_performed": false,
+      "n_windows_each": 500,
+      "results": {
+        "original": {
+          "auroc": 0.5176919999999999,
+          "aupr": 0.5156450720591559,
+          "f1_opt": 0.6675585284276484,
+          "threshold_opt": 0.023561088368296623,
+          "n_normal": 500,
+          "n_anomalous": 500,
+          "anomaly_prevalence": 0.5
+        },
+        "shuffled": {
+          "auroc": 0.5154240000000001,
+          "aupr": 0.5166378614039403,
+          "f1_opt": 0.6666666666662222,
+          "threshold_opt": 0.0,
+          "n_normal": 500,
+          "n_anomalous": 500,
+          "anomaly_prevalence": 0.5
+        },
+        "noise": {
+          "auroc": 0.530524,
+          "aupr": 0.5190119186057575,
+          "f1_opt": 0.6666666666662222,
+          "threshold_opt": 0.0,
+          "n_normal": 500,
+          "n_anomalous": 500,
+          "anomaly_prevalence": 0.5
+        }
+      },
+      "interpretation": "AMBIGUOUS \u2014 original only modestly better than shuffled/noise"
+    },
+    {
+      "map_mode": "reflect_pad",
+      "adapter_used": false,
+      "training_performed": false,
+      "n_windows_each": 500,
+      "results": {
+        "original": {
+          "auroc": 0.518376,
+          "aupr": 0.5238184747082613,
+          "f1_opt": 0.6666666666662222,
+          "threshold_opt": 0.0,
+          "n_normal": 500,
+          "n_anomalous": 500,
+          "anomaly_prevalence": 0.5
+        },
+        "shuffled": {
+          "auroc": 0.535612,
+          "aupr": 0.5253124769403635,
+          "f1_opt": 0.6680053547518974,
+          "threshold_opt": 0.21828125417232513,
+          "n_normal": 500,
+          "n_anomalous": 500,
+          "anomaly_prevalence": 0.5
+        },
+        "noise": {
+          "auroc": 0.47098799999999996,
+          "aupr": 0.49126775866687983,
+          "f1_opt": 0.6671114076046255,
+          "threshold_opt": 0.03893845155835152,
+          "n_normal": 500,
+          "n_anomalous": 500,
+          "anomaly_prevalence": 0.5
+        }
+      },
+      "interpretation": "AMBIGUOUS \u2014 original only modestly better than shuffled/noise"
+    },
+    {
+      "map_mode": "linear_resize",
+      "adapter_used": false,
+      "training_performed": false,
+      "n_windows_each": 500,
+      "results": {
+        "original": {
+          "auroc": 0.513858,
+          "aupr": 0.5016137186515164,
+          "f1_opt": 0.6680134680130214,
+          "threshold_opt": 0.2596133053302765,
+          "n_normal": 500,
+          "n_anomalous": 500,
+          "anomaly_prevalence": 0.5
+        },
+        "shuffled": {
+          "auroc": 0.48927,
+          "aupr": 0.49206243320167004,
+          "f1_opt": 0.6666666666662222,
+          "threshold_opt": 0.0,
+          "n_normal": 500,
+          "n_anomalous": 500,
+          "anomaly_prevalence": 0.5
+        },
+        "noise": {
+          "auroc": 0.508666,
+          "aupr": 0.505526991562661,
+          "f1_opt": 0.6666666666662222,
+          "threshold_opt": 0.0,
+          "n_normal": 500,
+          "n_anomalous": 500,
+          "anomaly_prevalence": 0.5
+        }
+      },
+      "interpretation": "AMBIGUOUS \u2014 original only modestly better than shuffled/noise"
+    }
+  ],
+  "geometry_results": [
+    {
+      "map_mode": "constant_pad",
+      "cosine_sim_ecg_normal_vs_net_stable": 0.2346625030040741,
+      "l2_ecg_normal_vs_net_stable": 0.647612452507019,
+      "l2_net_stable_vs_net_anon": 0.00896101538091898,
+      "var_ecg_normal": 0.0007339614094235003,
+      "var_net_stable": 0.001521595404483378,
+      "var_net_anomalous": 0.0014861640520393848
+    },
+    {
+      "map_mode": "reflect_pad",
+      "cosine_sim_ecg_normal_vs_net_stable": 0.18736471235752106,
+      "l2_ecg_normal_vs_net_stable": 0.680820882320404,
+      "l2_net_stable_vs_net_anon": 0.01827791891992092,
+      "var_ecg_normal": 0.0007339614094235003,
+      "var_net_stable": 0.005928477272391319,
+      "var_net_anomalous": 0.005819555371999741
+    },
+    {
+      "map_mode": "linear_resize",
+      "cosine_sim_ecg_normal_vs_net_stable": 0.09921499341726303,
+      "l2_ecg_normal_vs_net_stable": 0.7174752354621887,
+      "l2_net_stable_vs_net_anon": 0.017498787492513657,
+      "var_ecg_normal": 0.0007339614094235003,
+      "var_net_stable": 0.014380142092704773,
+      "var_net_anomalous": 0.014448761940002441
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+data:
+  cluster_std: 0.3
+  dim: 8
+  n_clusters: 4
+  n_samples: 10000
+  type: synthetic_gmm
+eval:
+  n_gmm_components: 10
+  umap_min_dist: 0.1
+  umap_neighbors: 15
+logging:
+  entity: null
+  log_every: 10
+  project: spectral-emerge
+model:
+  deq_max_iter: 50
+  deq_tol: 0.0001
+  hidden_dim: 64
+  latent_dim: 120
+  x_dim: 8
+training:
+  batch_size: 256
+  beta_sparse: 0.001
+  epochs: 50
+  lambda_spectral: 0.01
+  lr: 0.0003
+  seed: 42
+  tau_spectral: 1.0

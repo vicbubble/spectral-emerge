@@ -1,0 +1,36 @@
+{
+  "map_mode": "constant_pad",
+  "adapter_used": false,
+  "training_performed": false,
+  "n_windows_each": 500,
+  "results": {
+    "original": {
+      "auroc": 0.5176919999999999,
+      "aupr": 0.5156450720591559,
+      "f1_opt": 0.6675585284276484,
+      "threshold_opt": 0.023561088368296623,
+      "n_normal": 500,
+      "n_anomalous": 500,
+      "anomaly_prevalence": 0.5
+    },
+    "shuffled": {
+      "auroc": 0.5154240000000001,
+      "aupr": 0.5166378614039403,
+      "f1_opt": 0.6666666666662222,
+      "threshold_opt": 0.0,
+      "n_normal": 500,
+      "n_anomalous": 500,
+      "anomaly_prevalence": 0.5
+    },
+    "noise": {
+      "auroc": 0.530524,
+      "aupr": 0.5190119186057575,
+      "f1_opt": 0.6666666666662222,
+      "threshold_opt": 0.0,
+      "n_normal": 500,
+      "n_anomalous": 500,
+      "anomaly_prevalence": 0.5
+    }
+  },
+  "interpretation": "AMBIGUOUS \u2014 original only modestly better than shuffled/noise"
+}

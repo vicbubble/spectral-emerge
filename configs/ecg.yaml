@@ -1,0 +1,33 @@
+model:
+  x_dim: 187
+  latent_dim: 16
+  hidden_dim: 128
+  deq_max_iter: 30
+  deq_tol: 5.0e-4
+
+training:
+  batch_size: 128
+  lr: 1.0e-4
+  epochs: 150
+  lambda_spectral: 0.005
+  beta_sparse: 0.0005
+  tau_spectral: 0.8
+  seed: 42
+
+data:
+  type: ecg_physionet
+  records: [100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+  cache_dir: data/cache/physionet
+  fallback_to_synthetic: true
+  fallback_x_dim: 187
+  fallback_n_clusters: 5
+
+eval:
+  n_gmm_components: 5
+  umap_neighbors: 15
+  umap_min_dist: 0.1
+
+logging:
+  project: spectral-emerge
+  entity: null
+  log_every: 10

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you find this code or experiment useful, please cite it."
+title: "Spectral Emerge: Energy-Based Anomaly Detection with Implicit Latent Dynamics"
+version: 0.1.0
+date-released: 2026-03-11
+license: MIT
+repository-code: "https://github.com/vicbubble/spectral-emerge"
+abstract: >
+  An independent experimental exploration of whether implicit equilibrium-based
+  neural dynamics can produce useful internal representations for unsupervised
+  anomaly detection in continuous signals. The model was evaluated on real
+  PhysioNet ECG data (positive result) and synthetic network latency data
+  via zero-shot cross-domain transfer (negative result). Both results are
+  documented and shared openly.
+authors:
+  - name: "Victor P."
+    alias: "spectral-emerge"
+keywords:
+  - anomaly-detection
+  - implicit-neural-networks
+  - energy-based-models
+  - ECG
+  - unsupervised-learning
+  - zero-shot-transfer

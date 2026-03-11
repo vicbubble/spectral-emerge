@@ -1,0 +1,10 @@
+{
+    "ARI": 0.20437289775104628,
+    "NMI": 0.2650479441602655,
+    "purity": 0.8328716528162512,
+    "random_baseline_ARI": -1.0286411713840373e-05,
+    "kmeans_baseline_ARI": 0.3676335512532581,
+    "unique_true_classes": 4,
+    "unique_pred_clusters": 4,
+    "data_source": "physionet"
+}

@@ -1,0 +1,44 @@
+{
+    "lambda_sweep": {
+        "lambdas": [
+            0.0,
+            0.001,
+            0.01,
+            0.1,
+            1.0,
+            10.0
+        ],
+        "mode_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+        ]
+    },
+    "deq_vs_ff": {
+        "deq_mode_count": 4,
+        "ff_mode_count": 4
+    },
+    "dim_sweep": {
+        "dims": [
+            8,
+            16,
+            32,
+            64,
+            128
+        ],
+        "mode_counts": [
+            4,
+            4,
+            4,
+            4,
+            1
+        ]
+    },
+    "vqvae_baseline": {
+        "vqvae_mode_count": 4,
+        "deq_mode_count": 4
+    }
+}
